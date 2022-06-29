@@ -2,7 +2,7 @@ import React from 'react'
 import {Card} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 
-function cards({ student }) {
+function cards({student}) {
     return (
         <div className='cardProfile'>
             <Card style={{ width: '18rem' }}>
