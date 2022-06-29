@@ -1,0 +1,18 @@
+.cardBody {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1px;
+}
+
+.cardProfile {
+    text-align: center;
+    margin: .5%;
+    border: 1px solid black;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.card {
+    margin: auto;
+}

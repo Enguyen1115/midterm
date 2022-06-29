@@ -30,7 +30,7 @@ class App extends Component {
       //             </Routes>
       //         </div>
       //     </Router>
-      <div>
+      <div className='App'>
         <StudentsList/>
       </div>
     );

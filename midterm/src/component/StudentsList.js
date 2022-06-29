@@ -1,5 +1,6 @@
 import React from 'react'
 import Cards from './Cards';
+import '../studentCardStyle.css';
 
 function studentsList(props) {
 
@@ -33,7 +34,10 @@ function studentsList(props) {
       const students = cardInfo.map(student => <Cards key={student.name} student={student}/>)
 
   return (
-    <div>{students}</div>
+    <div>
+      <h1>Students List</h1>
+      <div className='cardBody'>{students}</div>
+      </div>
   )
 }
 

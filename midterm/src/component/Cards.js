@@ -7,11 +7,9 @@ function cards({student}) {
         <div className='cardProfile'>
             <Card style={{ width: '18rem' }}>
                 <Card.Img className="img" variant="top" src={student.image} />
-                <Card.Body className="cardBody">
+                <Card.Body className="card-Body">
                     <Card.Title>{student.name}</Card.Title>
-                    <Card.Text>
-                        {student.gpa}
-                    </Card.Text>
+                    <Card.Text>{student.gpa}</Card.Text>
                     <Button variant="primary">Grade</Button>
                 </Card.Body>
             </Card>
