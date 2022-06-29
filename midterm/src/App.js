@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import About from './component/about';
-import Home from './component/home';
-import Contact from './component/contact';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import About from './component/about';
+// import Home from './component/home';
+// import Contact from './component/contact';
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import React, { Component } from 'react';
+import StudentsList from './component/StudentsList';
 
 class App extends Component {
   render() {
@@ -30,7 +31,7 @@ class App extends Component {
       //         </div>
       //     </Router>
       <div>
-        
+        <StudentsList/>
       </div>
     );
   }

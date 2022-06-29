@@ -1,6 +1,7 @@
 import React from 'react'
+import Cards from './Cards';
 
-function studentsList() {
+function studentsList(props) {
 
     const cardInfo = [
         {
